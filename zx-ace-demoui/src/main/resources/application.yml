@@ -1,0 +1,12 @@
+server:
+  port: 8011
+
+spring:
+  thymeleaf:
+    #默认配置访问html文件的上下文路径
+    #prefix: classpath:/templates/
+    #suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+    content-type: text/html
+    cache: false
